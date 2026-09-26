@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* ── Parchment Journey Theme ─────────────────────────────── */
+@theme {
+  --color-parchment: #F4EFE6;
+  --color-ink: #2B2620;
+  --color-sage: #9CB88F;
+  --color-rose: #D8A0A6;
+  --color-gold: #E4B65C;
+  --color-slate: #8FA6B2;
+  --color-border: #C9C0AF;
+  --color-parchment-dark: #E8DFD0;
+
+  --font-display: "Press Start 2P", monospace;
+  --font-body: "VT323", monospace;
+}
+
+/* ── Base ───────────────────────────────────────────────────── */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #F4EFE6;
+  color: #2B2620;
+  font-family: "VT323", monospace;
+  font-size: 22px; /* VT323 is small, so bump the base size */
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ── Pixel heading font ────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6,
+.font-display {
+  font-family: "Press Start 2P", monospace;
+}
+
+/* ── Scrollbar styling (thin, on-theme) ────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9C0AF;
+  border: 1px solid #2B2620;
+}
+
+/* ── Utilities ─────────────────────────────────────── */
+.ink-border {
+  border: 2px solid #2B2620;
+}
+
+.ink-border-thin {
+  border: 1px solid #2B2620;
+}
+
+/* ── Progress Line ────────────────────────────────────────── */
+.progress-line-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: rgba(43, 38, 32, 0.1);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.progress-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #E4B65C;
+  transform-origin: top;
+}
+
+/* ── Dot Matrix Text effect ───────────────────────────────── */
+.dot-matrix {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
