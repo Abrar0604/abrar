@@ -1,4 +1,6 @@
-export const ProjectIcons: Record<string, () => JSX.Element> = {
+import React from 'react';
+
+export const ProjectIcons: Record<string, React.FC> = {
   'nvidia-mcp-swarm': () => (
     // Council of servers/brains
     <svg viewBox="0 0 100 100" className="w-full h-full" fill="none">
