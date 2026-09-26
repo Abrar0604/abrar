@@ -41,17 +41,17 @@ export default function ProjectsSection() {
                   </div>
 
                   <div className="mb-4">
-                    <h4 className="dot-matrix text-[#9CB88F] font-bold mb-1">BRIEFING</h4>
+                    <h4 className="dot-matrix text-[#9CB88F] font-bold mb-1">THE "EASY" IDEA</h4>
                     <p className="text-lg leading-relaxed">{proj.missionBriefing}</p>
                   </div>
 
                   <div className="mb-4">
-                    <h4 className="dot-matrix text-[#D8A0A6] font-bold mb-1">CHALLENGE</h4>
+                    <h4 className="dot-matrix text-[#D8A0A6] font-bold mb-1">WHY I ALMOST QUIT TECH</h4>
                     <p className="text-lg leading-relaxed">{proj.bossChallenge}</p>
                   </div>
 
                   <div>
-                    <h4 className="dot-matrix text-[#E4B65C] font-bold mb-1">LOOT / RESULTS</h4>
+                    <h4 className="dot-matrix text-[#E4B65C] font-bold mb-1">WHAT I SURVIVED WITH</h4>
                     <ul className="list-none space-y-1">
                       {proj.lootStats.map((stat, i) => (
                         <li key={i} className="text-lg flex items-start gap-2">

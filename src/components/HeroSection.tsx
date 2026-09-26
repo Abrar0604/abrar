@@ -16,10 +16,10 @@ export default function HeroSection() {
         
         <h1 className="font-display text-xl md:text-3xl mb-6 text-[#2B2620]">ABRAR AHAMMAD</h1>
         <p className="dot-matrix text-lg md:text-xl text-[#2B2620] mb-4">
-          SYSTEM INITIALIZATION... OK.
+          SYSTEM INITIALIZATION... (SIGH) OK, WE'RE DOING THIS.
         </p>
         <p className="text-xl md:text-2xl text-[#2B2620]">
-          Final-year AI &amp; Data Science engineer building multi-agent systems, RAG pipelines, and full-stack GenAI products.
+          Final-year AI &amp; Data Science engineer. I build multi-agent systems, RAG pipelines, and full-stack GenAI products so you don't have to pretend you know how.
         </p>
       </div>
       <div className="mt-12 text-[#8FA6B2] dot-matrix animate-pulse">

@@ -20,9 +20,9 @@ export default function SummitSection() {
         
         <div className="ink-border p-8 bg-[#E8DFD0] shadow-[8px_8px_0_0_#2B2620] mb-8 text-left">
           <p className="text-xl leading-relaxed">
-            Abrar is seeking <strong className="text-[#9CB88F]">AI/ML Engineering</strong>, <strong className="text-[#D8A0A6]">Full Stack</strong>, and <strong className="text-[#E4B65C]">Data Science</strong> roles.
+            Abrar is currently seeking <strong className="text-[#9CB88F]">AI/ML Engineering</strong>, <strong className="text-[#D8A0A6]">Full Stack</strong>, and <strong className="text-[#E4B65C]">Data Science</strong> roles.
             <br/><br/>
-            Ready to build production-grade intelligent systems from day one.
+            Ready to build production-grade intelligent systems from day one... or at least fix the broken ones you already have. Your call.
           </p>
         </div>
 

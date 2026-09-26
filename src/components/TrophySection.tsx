@@ -24,7 +24,7 @@ export default function TrophySection() {
               <span className="font-display text-2xl text-[#C9C0AF]">?</span>
             </div>
             <p className="dot-matrix text-[#8FA6B2] text-xl mb-2">CHEST EMPTY</p>
-            <p className="text-lg">No certifications collected yet. Awaiting new achievements.</p>
+            <p className="text-lg">No certifications collected yet. I prefer building things that actually work over hoarding PDF badges. (I'll get around to it eventually).</p>
           </div>
         ) : (
           <div className="space-y-4">
