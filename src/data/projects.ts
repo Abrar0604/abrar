@@ -20,6 +20,9 @@ export const projects: Project[] = [
     ],
     worldPosition: { x: 1000, y: 400 },
     triggerRadius: 80,
+    headerBriefing: 'THE "EASY" IDEA',
+    headerChallenge: 'WHY I ALMOST QUIT TECH',
+    headerLoot: 'WHAT I SURVIVED WITH',
   },
   {
     id: 'mirsad',
@@ -38,6 +41,9 @@ export const projects: Project[] = [
     ],
     worldPosition: { x: 600, y: 700 },
     triggerRadius: 80,
+    headerBriefing: 'THE DELUSION',
+    headerChallenge: 'WHAT BROKE MY WILL TO LIVE',
+    headerLoot: 'SALVAGEABLE REMAINS',
   },
   {
     id: 'coding-coliseum',
@@ -52,6 +58,9 @@ export const projects: Project[] = [
     lootStats: ['Chess-style Elo rating system'],
     worldPosition: { x: 1400, y: 750 },
     triggerRadius: 80,
+    headerBriefing: 'THE HUBRIS',
+    headerChallenge: 'SLEEPLESS NIGHTS GENERATOR',
+    headerLoot: 'AT LEAST IT WORKS (MOSTLY)',
   },
   {
     id: 'stellar-classification',
@@ -66,6 +75,9 @@ export const projects: Project[] = [
     lootStats: ['Targeting >99% accuracy on the leaderboard'],
     worldPosition: { x: 400, y: 1100 },
     triggerRadius: 80,
+    headerBriefing: 'THE KAGGLE RABBIT HOLE',
+    headerChallenge: "MELTING GOOGLE'S GPU",
+    headerLoot: 'BRAGGING RIGHTS',
   },
   {
     id: 'store-intelligence',
@@ -80,6 +92,9 @@ export const projects: Project[] = [
     lootStats: ['Built for Purplle Tech Challenge 2026 hackathon'],
     worldPosition: { x: 1100, y: 1150 },
     triggerRadius: 80,
+    headerBriefing: 'BIG BROTHER LITE',
+    headerChallenge: 'FRAMERATES FROM HELL',
+    headerLoot: 'HACKATHON SURVIVOR MEDAL',
   },
   {
     id: 'voice-synthesis',
@@ -94,5 +109,8 @@ export const projects: Project[] = [
     lootStats: ['Deployed on AWS with a Flask service layer'],
     worldPosition: { x: 1600, y: 300 },
     triggerRadius: 80,
+    headerBriefing: 'MAKING MACHINES TALK',
+    headerChallenge: 'WRESTLING WITH LATENCY',
+    headerLoot: "IT DIDN'T SOUND LIKE A ROBOT (MUCH)",
   },
 ];

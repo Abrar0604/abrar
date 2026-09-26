@@ -19,6 +19,9 @@ export interface Project {
   missionBriefing: string;
   bossChallenge: string;
   lootStats: string[];
+  headerBriefing?: string;
+  headerChallenge?: string;
+  headerLoot?: string;
   worldPosition: WorldPosition;
   triggerRadius: number;
 }
