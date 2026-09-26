@@ -37,7 +37,7 @@ export default function SummitSection() {
           </a>
           <a
             href={`mailto:${contact.email}`}
-            className="block ink-border p-4 text-center text-xl cursor-pointer hover:bg-[#E8DFD0] transition-colors dot-matrix"
+            className="block ink-border p-4 text-center text-xl cursor-pointer hover:bg-[#E8DFD0] transition-colors dot-matrix break-all"
             style={{ backgroundColor: '#F4EFE6', color: '#2B2620' }}
           >
             {contact.email}

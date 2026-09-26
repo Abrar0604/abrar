@@ -14,7 +14,7 @@ export default function HeroSection() {
           <div className="w-2 h-2 bg-[#2B2620]"></div>
         </div>
         
-        <h1 className="font-display text-xl md:text-3xl mb-6 text-[#2B2620]">ABRAR AHAMMAD</h1>
+        <h1 className="font-display text-base sm:text-xl md:text-3xl mb-6 text-[#2B2620]">ABRAR AHAMMAD</h1>
         <p className="dot-matrix text-lg md:text-xl text-[#2B2620] mb-4">
           SYSTEM INITIALIZATION... (SIGH) OK, WE'RE DOING THIS.
         </p>
