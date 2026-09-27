@@ -28,18 +28,37 @@ export const ProjectIcons: Record<string, React.FC> = {
     </svg>
   ),
   'coding-coliseum': () => (
-    // Crossed swords / Coliseum
+    // Coding Coliseum: Brackets facing off behind a Roman Coliseum
     <svg viewBox="0 0 100 100" className="w-full h-full" fill="none">
-      {/* Coliseum base */}
-      <path d="M20 70 C20 60 80 60 80 70 L75 90 L25 90 Z" fill="#E8DFD0" stroke="#2B2620" strokeWidth="3" />
-      <rect x="30" y="75" width="10" height="15" fill="#2B2620" />
-      <rect x="45" y="75" width="10" height="15" fill="#2B2620" />
-      <rect x="60" y="75" width="10" height="15" fill="#2B2620" />
-      {/* Swords */}
-      <line x1="30" y1="20" x2="70" y2="60" stroke="#8FA6B2" strokeWidth="4" />
-      <line x1="70" y1="20" x2="30" y2="60" stroke="#D8A0A6" strokeWidth="4" />
-      <rect x="25" y="15" width="10" height="10" fill="#E4B65C" stroke="#2B2620" strokeWidth="2" transform="rotate(45 30 20)" />
-      <rect x="65" y="15" width="10" height="10" fill="#E4B65C" stroke="#2B2620" strokeWidth="2" transform="rotate(-45 70 20)" />
+      {/* Background Brackets < > */}
+      {/* Left Bracket < */}
+      <path d="M 40 15 L 20 35 L 40 55" fill="none" stroke="#2B2620" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M 40 15 L 20 35 L 40 55" fill="none" stroke="#8FA6B2" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+      
+      {/* Right Bracket > */}
+      <path d="M 60 15 L 80 35 L 60 55" fill="none" stroke="#2B2620" strokeWidth="9" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M 60 15 L 80 35 L 60 55" fill="none" stroke="#D8A0A6" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+
+      {/* Coliseum Top Tier (Broken) */}
+      <path d="M 30 50 L 30 35 L 45 35 L 45 42 L 55 42 L 55 35 L 70 35 L 70 50 Z" fill="#E8DFD0" stroke="#2B2620" strokeWidth="3" strokeLinejoin="round" />
+      {/* Top Arches */}
+      <path d="M 33 50 L 33 42 A 4.5 4.5 0 0 1 42 42 L 42 50 Z" fill="#2B2620" />
+      <path d="M 58 50 L 58 42 A 4.5 4.5 0 0 1 67 42 L 67 50 Z" fill="#2B2620" />
+
+      {/* Coliseum Middle Tier */}
+      <rect x="25" y="50" width="50" height="15" fill="#F4EFE6" stroke="#2B2620" strokeWidth="3" />
+      {/* Middle Arches */}
+      <path d="M 30 65 L 30 57 A 5 5 0 0 1 40 57 L 40 65 Z" fill="#2B2620" />
+      <path d="M 45 65 L 45 57 A 5 5 0 0 1 55 57 L 55 65 Z" fill="#2B2620" />
+      <path d="M 60 65 L 60 57 A 5 5 0 0 1 70 57 L 70 65 Z" fill="#2B2620" />
+
+      {/* Coliseum Bottom Tier */}
+      <rect x="20" y="65" width="60" height="20" fill="#E8DFD0" stroke="#2B2620" strokeWidth="3" />
+      {/* Bottom Arches */}
+      <path d="M 24 85 L 24 75 A 5 5 0 0 1 34 75 L 34 85 Z" fill="#2B2620" />
+      <path d="M 38 85 L 38 75 A 5 5 0 0 1 48 75 L 48 85 Z" fill="#2B2620" />
+      <path d="M 52 85 L 52 75 A 5 5 0 0 1 62 75 L 62 85 Z" fill="#2B2620" />
+      <path d="M 66 85 L 66 75 A 5 5 0 0 1 76 75 L 76 85 Z" fill="#2B2620" />
     </svg>
   ),
   'stellar-classification': () => (
