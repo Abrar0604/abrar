@@ -25,7 +25,7 @@ export default function Journey() {
         style={{ scaleY }}
       />
 
-      <div className="max-w-5xl mx-auto px-6 py-20 z-10 relative">
+      <div className="max-w-5xl mx-auto px-3 sm:px-6 py-20 z-10 relative">
         <HeroSection />
         <AcademySection />
         <ArmorySection />

@@ -8,16 +8,16 @@ export default function ArmorySection() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.6 }}
-      className="mb-40 flex flex-col md:flex-row-reverse items-center relative pl-8 md:pl-0"
+      className="mb-40 flex flex-col md:flex-row-reverse items-center relative pl-6 md:pl-0"
     >
       {/* Node marker on the line */}
-      <div className="absolute left-[-16px] md:left-1/2 md:-translate-x-1/2 w-8 h-8 bg-[#8FA6B2] ink-border z-10 flex items-center justify-center">
+      <div className="absolute left-[-12px] md:left-1/2 md:-translate-x-1/2 w-6 h-6 sm:w-8 sm:h-8 bg-[#8FA6B2] ink-border z-10 flex items-center justify-center">
         <div className="w-2 h-2 bg-[#2B2620]"></div>
       </div>
 
       <div className="md:w-1/2 md:pl-16 text-left w-full">
-        <h2 className="font-display text-xl mb-6 text-[#2B2620]">THE ARMORY</h2>
-        <div className="space-y-6">
+        <h2 className="font-display text-sm sm:text-lg md:text-xl mb-6 text-[#2B2620] leading-relaxed">THE ARMORY</h2>
+        <div className="space-y-4 sm:space-y-6">
           {skills.map((cat, idx) => (
             <motion.div 
               key={cat.category}
@@ -25,16 +25,16 @@ export default function ArmorySection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="ink-border p-5 bg-[#E8DFD0] shadow-[4px_4px_0_0_#2B2620]"
+              className="ink-border p-3 sm:p-5 bg-[#E8DFD0] shadow-[4px_4px_0_0_#2B2620] overflow-hidden"
             >
-              <h3 className="font-display text-sm mb-3" style={{ color: '#E4B65C' }}>
+              <h3 className="font-display text-xs sm:text-sm mb-3 leading-relaxed" style={{ color: '#E4B65C' }}>
                 {cat.category}
               </h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1 sm:gap-2">
                 {cat.skills.map((skill) => (
                   <span 
                     key={skill}
-                    className="ink-border-thin bg-[#F4EFE6] px-2 py-1 text-base dot-matrix"
+                    className="ink-border-thin bg-[#F4EFE6] px-1.5 sm:px-2 py-0.5 sm:py-1 text-sm sm:text-base dot-matrix"
                   >
                     {skill}
                   </span>
