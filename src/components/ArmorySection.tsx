@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { skills } from '../data/skills';
+import { ArmoryIcon } from './SectionIcons';
 
 export default function ArmorySection() {
   return (
@@ -44,7 +45,13 @@ export default function ArmorySection() {
           ))}
         </div>
       </div>
-      <div className="hidden md:block md:w-1/2"></div>
+
+      {/* Armory Icon */}
+      <div className="hidden md:flex md:w-1/2 justify-center items-center">
+        <div className="w-40 h-40">
+          <ArmoryIcon />
+        </div>
+      </div>
     </motion.section>
   );
 }

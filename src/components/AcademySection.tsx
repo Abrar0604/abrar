@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { AcademyIcon } from './SectionIcons';
 
 export default function AcademySection() {
   return (
@@ -34,7 +35,13 @@ export default function AcademySection() {
           <p className="text-sm sm:text-base mt-2">Score: 94.8% (Yes, I was a nerd).</p>
         </div>
       </div>
-      <div className="hidden md:block md:w-1/2"></div>
+
+      {/* Academy Icon */}
+      <div className="hidden md:flex md:w-1/2 justify-center items-center">
+        <div className="w-40 h-40">
+          <AcademyIcon />
+        </div>
+      </div>
     </motion.section>
   );
 }
