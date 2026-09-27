@@ -16,12 +16,10 @@ export interface Project {
   title: string;
   year: string;
   tech: string[];
-  missionBriefing: string;
-  bossChallenge: string;
-  lootStats: string[];
-  headerBriefing?: string;
-  headerChallenge?: string;
-  headerLoot?: string;
+  oneLiner: string;
+  keyStats: string[];
+  githubUrl?: string;
+  demoUrl?: string;
   worldPosition: WorldPosition;
   triggerRadius: number;
 }

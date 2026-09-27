@@ -4,7 +4,6 @@ import HeroSection from './HeroSection';
 import AcademySection from './AcademySection';
 import ArmorySection from './ArmorySection';
 import ProjectsSection from './ProjectsSection';
-import TrophySection from './TrophySection';
 import SummitSection from './SummitSection';
 
 export default function Journey() {
@@ -27,10 +26,9 @@ export default function Journey() {
 
       <div className="max-w-5xl mx-auto px-3 sm:px-6 py-20 z-10 relative">
         <HeroSection />
+        <ArmorySection />
         <ProjectsSection />
         <AcademySection />
-        <ArmorySection />
-        <TrophySection />
         <SummitSection />
       </div>
     </div>
